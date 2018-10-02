@@ -1,0 +1,5 @@
+package com.capgemini.productcatalog.service;
+
+public class ProductServiceImpl implements ProductService {
+
+}

@@ -1,0 +1,2308 @@
+!SESSION 2018-10-02 09:10:13.433 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-02 09:10:31.142
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-02 09:10:31.142
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79c1ccf7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4654e373,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-02 09:10:36.408
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2018-10-02 09:11:45.977
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-02 10:04:29.708 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-02 10:05:01.965
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-02 10:05:01.965
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d3c501b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b8cb283,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-02 10:05:14.699
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:13.468
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.527
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.revrmlls
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.529
+!MESSAGE subscribing to classpath changes: sts4.classpath.revrmlls
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.532
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.536
+!MESSAGE subsribers = [sts4.classpath.revrmlls]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.537
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.543
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.547
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.548
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.550
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.551
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.553
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.revrmlls => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.615
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:18.617
+!MESSAGE executing callback sts4.classpath.revrmlls eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:19.932
+!MESSAGE executing callback sts4.classpath.revrmlls SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:19.934
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:19.935
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:19.959
+!MESSAGE classpath=181 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:19.960
+!MESSAGE executing callback sts4.classpath.revrmlls zuul-api-gateway false 181
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:11:21.952
+!MESSAGE executing callback sts4.classpath.revrmlls SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:12:02.696
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN}
+		src/test/java[*]: {CHILDREN}
+			com.capgemini.eurekaserver[*]: {CHILDREN}
+				[Working copy] EurekaServerApplicationTests.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:12:15.975
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN | CONTENT}
+		src/test/java[*]: {CHILDREN}
+			com.capgemini.eurekaserver[*]: {CHILDREN}
+				[Working copy] EurekaServerApplicationTests.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/eureka-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:12:16.204
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:12:22.280
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN}
+		src/test/java[*]: {CHILDREN}
+			com.capgemini.eurekaserver[*]: {CHILDREN}
+				EurekaServerApplicationTests.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:33.858
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.eurekaserver[*]: {CHILDREN}
+				[Working copy] EurekaServerApplication.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/eureka-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:34.025
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:43.740
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.eurekaserver[*]: {CHILDREN}
+				EurekaServerApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:43.761
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.revrmlls
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:43.762
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.revrmlls
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:43.763
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:43.764
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.revrmlls => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.120
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lQqXkjMW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.120
+!MESSAGE subscribing to classpath changes: sts4.classpath.lQqXkjMW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.121
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.122
+!MESSAGE subsribers = [sts4.classpath.lQqXkjMW]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.122
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.123
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.124
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.124
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.125
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.125
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.126
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lQqXkjMW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.149
+!MESSAGE classpath=181 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.150
+!MESSAGE executing callback sts4.classpath.lQqXkjMW zuul-api-gateway false 181
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.705
+!MESSAGE executing callback sts4.classpath.lQqXkjMW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.706
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.707
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.757
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:13:58.758
+!MESSAGE executing callback sts4.classpath.lQqXkjMW eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:00.124
+!MESSAGE executing callback sts4.classpath.lQqXkjMW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:02.738
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/test/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway[*]: {CHILDREN}
+				[Working copy] ZuulApiGatewayApplicationTests.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:02.991
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:04.750
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/test/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway[*]: {CHILDREN}
+				ZuulApiGatewayApplicationTests.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:04.756
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lQqXkjMW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:04.757
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lQqXkjMW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:04.758
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:14:04.758
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lQqXkjMW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.180
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PTWNengL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.181
+!MESSAGE subscribing to classpath changes: sts4.classpath.PTWNengL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.182
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.182
+!MESSAGE subsribers = [sts4.classpath.PTWNengL]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.183
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.184
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.185
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.185
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.186
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.186
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.187
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PTWNengL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.206
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.207
+!MESSAGE executing callback sts4.classpath.PTWNengL zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.984
+!MESSAGE executing callback sts4.classpath.PTWNengL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.985
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:20.986
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:21.003
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:21.004
+!MESSAGE executing callback sts4.classpath.PTWNengL eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:15:22.332
+!MESSAGE executing callback sts4.classpath.PTWNengL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:16:17.668
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway[*]: {CHILDREN}
+				[Working copy] ZuulApiGatewayApplication.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:16:17.895
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:16:24.584
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway[*]: {CHILDREN}
+				ZuulApiGatewayApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:16:24.590
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PTWNengL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:16:24.592
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PTWNengL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:16:24.592
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:16:24.593
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PTWNengL => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-02 10:18:27.170
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.891
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bHffBuCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.892
+!MESSAGE subscribing to classpath changes: sts4.classpath.bHffBuCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.893
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.894
+!MESSAGE subsribers = [sts4.classpath.bHffBuCC]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.894
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.895
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.896
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.897
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.898
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.898
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.899
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bHffBuCC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.920
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:44.921
+!MESSAGE executing callback sts4.classpath.bHffBuCC zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:45.464
+!MESSAGE executing callback sts4.classpath.bHffBuCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:45.465
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:45.466
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:45.484
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:45.485
+!MESSAGE executing callback sts4.classpath.bHffBuCC eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:18:46.611
+!MESSAGE executing callback sts4.classpath.bHffBuCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:03.771
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				[Working copy] ErrorFilter.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:04.412
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/src)[*]
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:10.380
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				[Working copy] PostFilter.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:20.963
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				[Working copy] PostFilter.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:21.186
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/src)[*]
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:22.979
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				[Working copy] PreFilter.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:30.490
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				[Working copy] PreFilter.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:30.672
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/src)[*]
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:32.441
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				[Working copy] RouteFilter.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:41.661
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				[Working copy] RouteFilter.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:42.395
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/src)[*]
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:45.969
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				PostFilter.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:46.008
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				PreFilter.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:46.051
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				ErrorFilter.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:46.167
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN}
+				RouteFilter.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:46.179
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bHffBuCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:46.180
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bHffBuCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:46.181
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:46.182
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bHffBuCC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.639
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WYRjJbQj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.640
+!MESSAGE subscribing to classpath changes: sts4.classpath.WYRjJbQj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.641
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.642
+!MESSAGE subsribers = [sts4.classpath.WYRjJbQj]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.643
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.644
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.645
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.646
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.646
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.647
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.647
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WYRjJbQj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.672
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:53.673
+!MESSAGE executing callback sts4.classpath.WYRjJbQj zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:54.468
+!MESSAGE executing callback sts4.classpath.WYRjJbQj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:54.469
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:54.469
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:54.506
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:54.507
+!MESSAGE executing callback sts4.classpath.WYRjJbQj eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:19:56.007
+!MESSAGE executing callback sts4.classpath.WYRjJbQj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:43.193
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway[*]: {CHILDREN}
+				[Working copy] ZuulApiGatewayApplication.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:43.387
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:46.802
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.zuulapigateway[*]: {CHILDREN}
+				ZuulApiGatewayApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:46.810
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WYRjJbQj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:46.811
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WYRjJbQj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:46.812
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:46.813
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WYRjJbQj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.587
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uvkCrNsy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.588
+!MESSAGE subscribing to classpath changes: sts4.classpath.uvkCrNsy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.589
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.590
+!MESSAGE subsribers = [sts4.classpath.uvkCrNsy]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.591
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.764
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.766
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.767
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.767
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.768
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.769
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uvkCrNsy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.788
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:58.789
+!MESSAGE executing callback sts4.classpath.uvkCrNsy eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:59.203
+!MESSAGE executing callback sts4.classpath.uvkCrNsy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:59.204
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:59.205
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:59.234
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:20:59.235
+!MESSAGE executing callback sts4.classpath.uvkCrNsy zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:21:00.390
+!MESSAGE executing callback sts4.classpath.uvkCrNsy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:22:03.313
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul-api-gateway/src/main/resources/application.properties)[*]
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:22:03.422
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:23:05.272
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/eureka-server/src/main/resources/application.properties)[*]
+		ResourceDelta(/eureka-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:23:05.471
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:24:33.278
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.capgemini[*]: {CONTENT}
+			com.capgemini.eurekaserver[*]: {CHILDREN | CONTENT}
+				EurekaServerApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/eureka-server/src/main/resources/application.properties)[*]
+			ResourceDelta(/eureka-server/src/main/resources/static)[*]
+			ResourceDelta(/eureka-server/src/main/resources/templates)[*]
+		src/test/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.capgemini[*]: {CONTENT}
+			com.capgemini.eurekaserver[*]: {CHILDREN | CONTENT}
+				EurekaServerApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/eureka-server/.classpath)[*]
+		ResourceDelta(/eureka-server/.gitignore)[*]
+		ResourceDelta(/eureka-server/.mvn)[*]
+		ResourceDelta(/eureka-server/.project)[*]
+		ResourceDelta(/eureka-server/.settings)[*]
+		ResourceDelta(/eureka-server/mvnw)[*]
+		ResourceDelta(/eureka-server/mvnw.cmd)[*]
+		ResourceDelta(/eureka-server/pom.xml)[*]
+		ResourceDelta(/eureka-server/src)[*]
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:24:33.975
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.capgemini[*]: {CONTENT}
+			com.capgemini.zuulapigateway[*]: {CHILDREN | CONTENT}
+				ZuulApiGatewayApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.capgemini.zuulapigateway.filters[*]: {CHILDREN | CONTENT}
+				ErrorFilter.java[*]: {CONTENT | PRIMARY RESOURCE}
+				PostFilter.java[*]: {CONTENT | PRIMARY RESOURCE}
+				PreFilter.java[*]: {CONTENT | PRIMARY RESOURCE}
+				RouteFilter.java[*]: {CONTENT | PRIMARY RESOURCE}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul-api-gateway/src/main/resources/application.properties)[*]
+			ResourceDelta(/zuul-api-gateway/src/main/resources/static)[*]
+			ResourceDelta(/zuul-api-gateway/src/main/resources/templates)[*]
+		src/test/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.capgemini[*]: {CONTENT}
+			com.capgemini.zuulapigateway[*]: {CHILDREN | CONTENT}
+				ZuulApiGatewayApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/zuul-api-gateway/.classpath)[*]
+		ResourceDelta(/zuul-api-gateway/.gitignore)[*]
+		ResourceDelta(/zuul-api-gateway/.mvn)[*]
+		ResourceDelta(/zuul-api-gateway/.project)[*]
+		ResourceDelta(/zuul-api-gateway/.settings)[*]
+		ResourceDelta(/zuul-api-gateway/mvnw)[*]
+		ResourceDelta(/zuul-api-gateway/mvnw.cmd)[*]
+		ResourceDelta(/zuul-api-gateway/pom.xml)[*]
+		ResourceDelta(/zuul-api-gateway/src)[*]
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:24:34.080
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:24:34.110
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:24:35.827
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:24:37.023
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:33:30.857
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/eureka-server/src/main/resources/application.properties)[*]
+		ResourceDelta(/eureka-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:33:31.047
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:35:03.288
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul-api-gateway/src/main/resources/application.properties)[*]
+		ResourceDelta(/zuul-api-gateway/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:35:03.322
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul-api-gateway[*]: {CONTENT}
+		ResourceDelta(/zuul-api-gateway/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:41:52.417
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/eureka-server/src/main/resources/application.properties)[*]
+		ResourceDelta(/eureka-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 10:41:52.558
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka-server[*]: {CONTENT}
+		ResourceDelta(/eureka-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:11:08.328
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uvkCrNsy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:11:08.379
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.uvkCrNsy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:11:08.380
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:11:08.380
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uvkCrNsy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.694
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xxIMkaXZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.694
+!MESSAGE subscribing to classpath changes: sts4.classpath.xxIMkaXZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.695
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.696
+!MESSAGE subsribers = [sts4.classpath.xxIMkaXZ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.696
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.697
+!MESSAGE project product-catalog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.698
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.698
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.699
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.699
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.700
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.700
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xxIMkaXZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.709
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:14.710
+!MESSAGE executing callback sts4.classpath.xxIMkaXZ product-catalog false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:15.107
+!MESSAGE executing callback sts4.classpath.xxIMkaXZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:15.108
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:15.110
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:16.335
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:16.336
+!MESSAGE executing callback sts4.classpath.xxIMkaXZ zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:17.849
+!MESSAGE executing callback sts4.classpath.xxIMkaXZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:17.850
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:17.851
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:18.058
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:18.059
+!MESSAGE executing callback sts4.classpath.xxIMkaXZ eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:18.081
+!MESSAGE executing callback sts4.classpath.xxIMkaXZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:20.964
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/test/java[*]: {CHILDREN}
+			com.capgemini.productcatalog[*]: {CHILDREN}
+				ProductCatalogApplicationTests.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:20.968
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xxIMkaXZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:20.969
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xxIMkaXZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:20.969
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:13:20.970
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xxIMkaXZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.428
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vZwGqATP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.428
+!MESSAGE subscribing to classpath changes: sts4.classpath.vZwGqATP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.429
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.429
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.429
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.eclipse.ui 4 0 2018-10-02 11:15:35.431
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.springframework.tooling.ls.eclipse.commons.ProjectSorter$1.run(ProjectSorter.java:39)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.performFinish(NewElementWizard.java:139)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.performFinish(NewClassCreationWizard.java:74)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:821)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:136)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.469
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.470
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.471
+!MESSAGE project product-catalog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.471
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.471
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.472
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.472
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vZwGqATP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.512
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:35.513
+!MESSAGE executing callback sts4.classpath.vZwGqATP eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:37.515
+!MESSAGE executing callback sts4.classpath.vZwGqATP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-02 11:15:37.516
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:37.517
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.691
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.694
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				ProductController.java[+]: {}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.715
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.715
+!MESSAGE executing callback sts4.classpath.vZwGqATP zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.716
+!MESSAGE executing callback sts4.classpath.vZwGqATP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-02 11:15:40.717
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.vZwGqATP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.717
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.718
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.727
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.728
+!MESSAGE executing callback sts4.classpath.vZwGqATP product-catalog false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.728
+!MESSAGE executing callback sts4.classpath.vZwGqATP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-02 11:15:40.729
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.vZwGqATP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.823
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:40.937
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.561
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gFGXFfoG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.561
+!MESSAGE subscribing to classpath changes: sts4.classpath.gFGXFfoG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.562
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP, sts4.classpath.gFGXFfoG]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.563
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.564
+!MESSAGE project product-catalog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.565
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.565
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.565
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.566
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.566
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.567
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gFGXFfoG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.574
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.575
+!MESSAGE executing callback sts4.classpath.gFGXFfoG product-catalog false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.957
+!MESSAGE executing callback sts4.classpath.gFGXFfoG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.958
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.959
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.974
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:42.975
+!MESSAGE executing callback sts4.classpath.gFGXFfoG zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:43.947
+!MESSAGE executing callback sts4.classpath.gFGXFfoG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:43.948
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:43.949
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:43.969
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:43.969
+!MESSAGE executing callback sts4.classpath.gFGXFfoG eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:44.009
+!MESSAGE executing callback sts4.classpath.gFGXFfoG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:54.969
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.domain[*]: {CHILDREN}
+				Product.java[+]: {}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:55.076
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.domain[*]: {CHILDREN}
+				[Working copy] Product.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:15:55.120
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:16:30.532
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				ProductRepository.java[+]: {}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:16:30.637
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:16:30.684
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:18:07.327
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				ProductService.java[+]: {}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:18:07.435
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:18:07.475
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:18:26.366
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				ProductServiceImpl.java[+]: {}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:18:26.509
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:18:26.542
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:19:17.124
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:19:17.281
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:19:19.215
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				ProductServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:19:21.787
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				ProductService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:20:01.824
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:20:01.998
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/src)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:20:19.178
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:20:19.365
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/src)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:20:25.703
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				ProductRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:20.658
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.domain[*]: {CHILDREN}
+				[Working copy] Product.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:21.506
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:36.054
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.domain[*]: {CHILDREN}
+				Product.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:41.549
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				ProductController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:41.552
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gFGXFfoG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:41.553
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gFGXFfoG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:41.554
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:25:41.555
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gFGXFfoG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:08.851
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.720
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XykcSWrg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.721
+!MESSAGE subscribing to classpath changes: sts4.classpath.XykcSWrg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.721
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP, sts4.classpath.XykcSWrg]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.722
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.723
+!MESSAGE project product-catalog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.723
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.724
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.724
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.724
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.725
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.725
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XykcSWrg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.734
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:11.734
+!MESSAGE executing callback sts4.classpath.XykcSWrg product-catalog false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:12.267
+!MESSAGE executing callback sts4.classpath.XykcSWrg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:12.268
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:12.268
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:12.285
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:12.286
+!MESSAGE executing callback sts4.classpath.XykcSWrg zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:13.354
+!MESSAGE executing callback sts4.classpath.XykcSWrg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:13.355
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:13.356
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:13.371
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:13.371
+!MESSAGE executing callback sts4.classpath.XykcSWrg eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:26:13.472
+!MESSAGE executing callback sts4.classpath.XykcSWrg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:00.090
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:00.710
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:06.673
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				ProductRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:06.677
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XykcSWrg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:06.677
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XykcSWrg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:06.678
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:06.679
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XykcSWrg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:16.718
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.205
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UTYFpBCm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.205
+!MESSAGE subscribing to classpath changes: sts4.classpath.UTYFpBCm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.206
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP, sts4.classpath.UTYFpBCm]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.206
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.207
+!MESSAGE project product-catalog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.208
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.208
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.209
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.209
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.210
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UTYFpBCm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.216
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.216
+!MESSAGE executing callback sts4.classpath.UTYFpBCm product-catalog false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.638
+!MESSAGE executing callback sts4.classpath.UTYFpBCm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.639
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.639
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.655
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:19.656
+!MESSAGE executing callback sts4.classpath.UTYFpBCm zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:20.774
+!MESSAGE executing callback sts4.classpath.UTYFpBCm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:20.775
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:20.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:20.792
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:20.793
+!MESSAGE executing callback sts4.classpath.UTYFpBCm eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:30:21.018
+!MESSAGE executing callback sts4.classpath.UTYFpBCm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:37:10.819
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductService.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:37:12.172
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/src)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:37:12.851
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:37:30.595
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:37:30.733
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/src)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:45:00.573
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				[Working copy] ProductServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:45:00.718
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:46:51.464
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				ProductService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:46:54.030
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.service[*]: {CHILDREN}
+				ProductServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:46:54.033
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UTYFpBCm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:46:54.034
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UTYFpBCm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:46:54.034
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:46:54.034
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UTYFpBCm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:46:58.670
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.307
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LkPrxvih
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.308
+!MESSAGE subscribing to classpath changes: sts4.classpath.LkPrxvih
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.308
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP, sts4.classpath.LkPrxvih]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.308
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.309
+!MESSAGE project product-catalog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.310
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.310
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.311
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.311
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.311
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.312
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LkPrxvih => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.319
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.320
+!MESSAGE executing callback sts4.classpath.LkPrxvih product-catalog false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.730
+!MESSAGE executing callback sts4.classpath.LkPrxvih SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.731
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.732
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.747
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:00.747
+!MESSAGE executing callback sts4.classpath.LkPrxvih zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:01.709
+!MESSAGE executing callback sts4.classpath.LkPrxvih SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:01.709
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:01.710
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:01.725
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:01.725
+!MESSAGE executing callback sts4.classpath.LkPrxvih eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:01.795
+!MESSAGE executing callback sts4.classpath.LkPrxvih SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:20.243
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:20.385
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:29.768
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				[Working copy] ProductRepository.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:47:29.952
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:17.524
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.repository[*]: {CHILDREN}
+				ProductRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:17.528
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LkPrxvih
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:17.529
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LkPrxvih
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:17.529
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:17.530
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LkPrxvih => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:20.436
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.258
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dVCdguFs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.258
+!MESSAGE subscribing to classpath changes: sts4.classpath.dVCdguFs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.259
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP, sts4.classpath.dVCdguFs]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.259
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.260
+!MESSAGE project product-catalog ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.261
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.261
+!MESSAGE project eureka-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.262
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.262
+!MESSAGE project zuul-api-gateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.262
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.263
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dVCdguFs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.271
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.271
+!MESSAGE executing callback sts4.classpath.dVCdguFs product-catalog false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.665
+!MESSAGE executing callback sts4.classpath.dVCdguFs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.666
+!MESSAGE Preparing classpath changed notification zuul-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.667
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.683
+!MESSAGE classpath=171 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:22.684
+!MESSAGE executing callback sts4.classpath.dVCdguFs zuul-api-gateway false 171
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:24.686
+!MESSAGE executing callback sts4.classpath.dVCdguFs FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-02 11:49:24.687
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:24.688
+!MESSAGE Preparing classpath changed notification eureka-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:24.688
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:27.484
+!MESSAGE classpath=169 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:27.484
+!MESSAGE executing callback sts4.classpath.dVCdguFs eureka-server false 169
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:49:27.606
+!MESSAGE executing callback sts4.classpath.dVCdguFs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:51:48.120
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:51:48.438
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/src)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:53:25.397
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:53:27.579
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:54:17.563
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:54:17.573
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:54:47.013
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:54:47.028
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:57:38.247
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:57:38.445
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/src)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:57:41.665
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:57:41.877
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:57:46.111
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:57:46.245
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:58:35.849
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				[Working copy] ProductController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 11:58:36.035
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:00:09.475
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/product-catalog/src/main/resources/application.yml)[+]
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:00:09.596
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:01:25.748
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/product-catalog/src/main/resources/application.yml)[*]
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:01:25.770
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:02:04.651
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:02:12.696
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/pom.xml)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:02:29.070
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:02:29.898
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/pom.xml)[*]
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:22.186
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.234
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT | RESOLVED CLASSPATH CHANGED}
+		C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.6\jackson-datatype-jsr310-2.9.6.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\io\micrometer\micrometer-core\1.0.6\micrometer-core-1.0.6.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.10\HdrHistogram-2.1.10.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-starter-data-mongodb\2.0.5.RELEASE\spring-boot-starter-data-mongodb-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\data\spring-data-mongodb\2.0.10.RELEASE\spring-data-mongodb-2.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.5.RELEASE\spring-boot-starter-web-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.5.RELEASE\spring-boot-starter-json-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.6\jackson-datatype-jdk8-2.9.6.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.6\jackson-module-parameter-names-2.9.6.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.5.RELEASE\spring-boot-starter-tomcat-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.34\tomcat-embed-core-8.5.34.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.34\tomcat-embed-el-8.5.34.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.34\tomcat-embed-websocket-8.5.34.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.12.Final\hibernate-validator-6.0.12.Final.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-web\5.0.9.RELEASE\spring-web-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-webmvc\5.0.9.RELEASE\spring-webmvc-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-devtools\2.0.5.RELEASE\spring-boot-devtools-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[*]: {REORDERED}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-client\2.0.0.RELEASE\spring-cloud-starter-netflix-eureka-client-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-starter\2.0.0.RELEASE\spring-cloud-starter-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-context\2.0.0.RELEASE\spring-cloud-context-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\springframework\security\spring-security-crypto\5.0.8.RELEASE\spring-security-crypto-5.0.8.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-commons\2.0.0.RELEASE\spring-cloud-commons-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\springframework\security\spring-security-rsa\1.0.5.RELEASE\spring-security-rsa-1.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.56\bcpkix-jdk15on-1.56.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.56\bcprov-jdk15on-1.56.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-netflix-core\2.0.0.RELEASE\spring-cloud-netflix-core-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.5.RELEASE\spring-boot-starter-aop-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\2.0.0.RELEASE\spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\com\netflix\eureka\eureka-client\1.9.2\eureka-client-1.9.2.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\netflix-commons\netflix-infix\0.3.0\netflix-infix-0.3.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\archaius\archaius-core\0.7.6\archaius-core-0.7.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\google\guava\guava\16.0\guava-16.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\servo\servo-core\0.12.21\servo-core-0.12.21.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\github\vlsi\compactmap\compactmap\1.2.1\compactmap-1.2.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\github\andrewoma\dexx\dexx-collections\0.2\dexx-collections-0.2.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\eureka\eureka-core\1.9.2\eureka-core-1.9.2.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-archaius\2.0.0.RELEASE\spring-cloud-starter-netflix-archaius-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-netflix-ribbon\2.0.0.RELEASE\spring-cloud-netflix-ribbon-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-netflix-archaius\2.0.0.RELEASE\spring-cloud-netflix-archaius-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-ribbon\2.0.0.RELEASE\spring-cloud-starter-netflix-ribbon-2.0.0.RELEASE.jar[+]: {}
+		C:\Users\asus\.m2\repository\com\netflix\ribbon\ribbon\2.2.5\ribbon-2.2.5.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\ribbon\ribbon-transport\2.2.5\ribbon-transport-2.2.5.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\reactivex\rxnetty-contexts\0.4.9\rxnetty-contexts-0.4.9.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\reactivex\rxnetty-servo\0.4.9\rxnetty-servo-0.4.9.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\hystrix\hystrix-core\1.5.12\hystrix-core-1.5.12.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\reactivex\rxnetty\0.4.9\rxnetty-0.4.9.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-codec-http\4.1.29.Final\netty-codec-http-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-codec\4.1.29.Final\netty-codec-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-transport-native-epoll\4.1.29.Final\netty-transport-native-epoll-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-common\4.1.29.Final\netty-common-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-buffer\4.1.29.Final\netty-buffer-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.29.Final\netty-transport-native-unix-common-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-transport\4.1.29.Final\netty-transport-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\netty\netty-resolver\4.1.29.Final\netty-resolver-4.1.29.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\ribbon\ribbon-core\2.2.5\ribbon-core-2.2.5.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\ribbon\ribbon-httpclient\2.2.5\ribbon-httpclient-2.2.5.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\netflix-commons\netflix-commons-util\0.3.0\netflix-commons-util-0.3.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\ribbon\ribbon-loadbalancer\2.2.5\ribbon-loadbalancer-2.2.5.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\netflix-commons\netflix-statistics\0.1.1\netflix-statistics-0.1.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\io\reactivex\rxjava\1.3.8\rxjava-1.3.8.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\netflix\ribbon\ribbon-eureka\2.2.5\ribbon-eureka-2.2.5.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\asus\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar[*]: {ADDED TO CLASSPATH}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.237
+!MESSAGE Preparing classpath changed notification product-catalog
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.238
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.250
+!MESSAGE classpath=166 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.251
+!MESSAGE executing callback sts4.classpath.vZwGqATP product-catalog false 166
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.251
+!MESSAGE executing callback sts4.classpath.vZwGqATP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-02 12:04:28.252
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.vZwGqATP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.253
+!MESSAGE executing callback sts4.classpath.dVCdguFs product-catalog false 166
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:28.312
+!MESSAGE executing callback sts4.classpath.dVCdguFs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:30.090
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:49.194
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/product-catalog/src/main/resources/application.yml)[*]
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:04:49.361
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:06:24.835
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:06:25.925
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:07:49.564
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:07:50.561
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:08:18.207
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/product-catalog/src/main/resources/application.yml)[*]
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:08:19.097
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:09:49.122
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog[*]: {CHILDREN}
+				[Working copy] ProductCatalogApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:10:06.555
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog[*]: {CHILDREN}
+				[Working copy] ProductCatalogApplication.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:10:06.745
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:11:07.250
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog[*]: {CHILDREN}
+				ProductCatalogApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:11:18.706
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/product-catalog/src/main/resources/application.yml)[*]
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:11:18.876
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:18:14.193
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.domain[*]: {CHILDREN}
+				[Working copy] Product.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:19:07.608
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.domain[*]: {CHILDREN}
+				[Working copy] Product.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/product-catalog/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 12:19:07.814
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CONTENT}
+		ResourceDelta(/product-catalog/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 13:39:07.829
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.domain[*]: {CHILDREN}
+				Product.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 13:39:12.342
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	product-catalog[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.capgemini.productcatalog.controller[*]: {CHILDREN}
+				ProductController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 13:39:14.945
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dVCdguFs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 13:39:14.946
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dVCdguFs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 13:39:14.948
+!MESSAGE subsribers = [sts4.classpath.vZwGqATP]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-02 13:39:14.951
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dVCdguFs => OK

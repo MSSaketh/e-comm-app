@@ -1,0 +1,5 @@
+package com.capgemini.productcatalog.controller;
+
+public class ProductController {
+
+}

@@ -1,0 +1,11 @@
+package com.capgemini.productcatalog.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.capgemini.productcatalog.domain.Product;
+
+public interface ProductRepository extends MongoRepository<Product, String> {
+
+	public Product findByProductId(String id);
+
+}
