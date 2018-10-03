@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.netflix.zuul.EnableZuulProxy"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="com.capgemini.zuulapigateway.filters.PreFilter"/>
 <fullyQualifiedTypeName name="com.capgemini.zuulapigateway.filters.PostFilter"/>
 <fullyQualifiedTypeName name="com.capgemini.zuulapigateway.filters.ErrorFilter"/>
@@ -21,9 +20,19 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
 <fullyQualifiedTypeName name="com.capgemini.productcatalog.domain.Product"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.client.discovery.EnableDiscoveryClient"/>
+<fullyQualifiedTypeName name="org.springframework.data.redis.repository.configuration.EnableRedisRepositories"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"/>
+<fullyQualifiedTypeName name="org.springframework.data.redis.connection.RedisStandaloneConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.data.redis.core.RedisTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.data.redis.serializer.GenericToStringSerializer"/>
+<fullyQualifiedTypeName name="com.capgemini.productcart.service.ProductCartService"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+<fullyQualifiedTypeName name="com.capgemini.productcart.domain.Cart"/>
 <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+<fullyQualifiedTypeName name="org.springframework.data.redis.core.RedisHash"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
