@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.redis.core.RedisHash;
 
 @RedisHash("Cart")
-public class Cart implements Runnable {
+public class Cart {
 
 	private String cartId;
 	private List<CartItem> cartItems;
@@ -44,16 +44,6 @@ public class Cart implements Runnable {
 
 	public void setCartTotal(float cartTotal) {
 		this.cartTotal = cartTotal;
-	}
-
-	@Override
-	public String toString() {
-		return "Cart [cartId=" + cartId + ", cartItems=" + cartItems + ", cartTotal=" + cartTotal + "]";
-	}
-
-	@Override
-	public void run() {
-
 	}
 
 }

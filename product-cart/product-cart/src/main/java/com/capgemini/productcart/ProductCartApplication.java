@@ -15,6 +15,8 @@ import org.springframework.data.redis.serializer.GenericToStringSerializer;
 @SpringBootApplication
 public class ProductCartApplication {
 	
+//	192.168.43.218
+	
 	@Bean
 	public JedisConnectionFactory jedisConnectionFactory() {
 		RedisStandaloneConfiguration config = new RedisStandaloneConfiguration("localhost", 6379);

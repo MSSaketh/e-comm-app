@@ -1,11 +1,15 @@
 package com.capgemini.productcart.repository;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import com.capgemini.productcart.domain.Cart;
+import com.capgemini.productcart.domain.CartItem;
 
-public interface ProductCartRepository extends CrudRepository<Cart, String> {
-	
-	
+@Repository
+public interface ProductCartRepository {
+
+	public Cart findByCartId(String id);
+
+	public Cart addToCart(String id, CartItem cartItem);
 
 }
