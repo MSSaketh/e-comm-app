@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.capgemini.productcatalog.domain.Product;
 import com.capgemini.productcatalog.service.ProductService;
 
-@CrossOrigin("*")
+@CrossOrigin(value = "*")
 @RestController
 @RequestMapping("/api/v1")
 public class ProductController {

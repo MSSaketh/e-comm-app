@@ -8,21 +8,25 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Repository;
 
 import com.capgemini.productcart.domain.Cart;
 import com.capgemini.productcart.domain.CartItem;
 
+@Repository
 public class ProductCartRepositoryImpl implements ProductCartRepository {
 
 	private static final Logger logger = LoggerFactory.getLogger(ProductCartRepositoryImpl.class);
 
+	@Autowired
 	private final RedisTemplate<String, Cart> redisTemplate;
 
-	@Autowired
+	
 	public ProductCartRepositoryImpl(RedisTemplate<String, Cart> redisTemplate) {
 		super();
 		this.redisTemplate = redisTemplate;
 	}
+
 
 	@Override
 	public Cart findByCartId(String id) {

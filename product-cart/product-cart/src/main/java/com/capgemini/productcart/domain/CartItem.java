@@ -45,4 +45,11 @@ public class CartItem {
 		ItemPrice = itemPrice;
 	}
 
+	@Override
+	public String toString() {
+		return "CartItem [ItemId=" + ItemId + ", ItemName=" + ItemName + ", ItemPrice=" + ItemPrice + "]";
+	}
+
+	
+	
 }
