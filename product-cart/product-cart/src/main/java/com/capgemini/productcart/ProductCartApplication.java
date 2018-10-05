@@ -1,5 +1,8 @@
 package com.capgemini.productcart;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -11,6 +14,9 @@ import org.springframework.data.redis.repository.configuration.EnableRedisReposi
 import org.springframework.data.redis.serializer.GenericToStringSerializer;
 
 import com.capgemini.productcart.domain.Cart;
+import com.capgemini.productcart.domain.CartItem;
+import com.capgemini.productcart.repository.ProductCartRepository;
+import com.capgemini.productcart.repository.ProductCartRepositoryImpl;
 
 @EnableDiscoveryClient
 @EnableRedisRepositories
@@ -18,6 +24,7 @@ import com.capgemini.productcart.domain.Cart;
 public class ProductCartApplication {
 
 //	192.168.43.218
+	private static final Logger logger = LoggerFactory.getLogger(ProductCartApplication.class);
 
 	@Bean
 	public JedisConnectionFactory jedisConnectionFactory() {
@@ -31,6 +38,18 @@ public class ProductCartApplication {
 		redisTemplate.setConnectionFactory(jedisConnectionFactory());
 		redisTemplate.setValueSerializer(new GenericToStringSerializer<Cart>(Cart.class));
 		return redisTemplate;
+	}
+	
+	@Bean
+	public CommandLineRunner commandLineRunner(ProductCartRepository cartRepository, RedisTemplate<String, Cart> redisTemplate) {
+		return strings -> {
+			redisTemplate.delete("123");
+			logger.info("Test");
+			CartItem cartItem = new CartItem(null,"new product",2.3f);
+			Cart cart = cartRepository.addToCart(null, cartItem);
+			logger.info("Cart : {}.", cartRepository.findByCartId(cart.getCartId()));
+			logger.info("Find 123 : {}.", cartRepository.findByCartId("123"));
+		};
 	}
 
 	public static void main(String[] args) {
