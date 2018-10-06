@@ -9,5 +9,7 @@ public interface ProductCartRepository {
 	public Cart findByCartId(String id);
 
 	public Cart addToCart(String id, CartItem cartItem);
+	
+//	public Cart deleteFromCart(String id, CartItem cartItem);
 
 }

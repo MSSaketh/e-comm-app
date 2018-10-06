@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\e-com app\config-server"/>
 			<item value="E:\e-com app\product-cart"/>
 			<item value="E:\e-com app\product-catalog"/>
 			<item value="E:\e-com app\zuul-api-gateway"/>

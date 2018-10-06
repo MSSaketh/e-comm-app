@@ -21,12 +21,10 @@ public class ProductCartRepositoryImpl implements ProductCartRepository {
 	@Autowired
 	private final RedisTemplate<String, Cart> redisTemplate;
 
-	
 	public ProductCartRepositoryImpl(RedisTemplate<String, Cart> redisTemplate) {
 		super();
 		this.redisTemplate = redisTemplate;
 	}
-
 
 	@Override
 	public Cart findByCartId(String id) {
@@ -58,6 +56,14 @@ public class ProductCartRepositoryImpl implements ProductCartRepository {
 		redisTemplate.opsForValue().set(cart.getCartId(), cart);
 		return cart;
 	}
+
+//	@Override
+//	public Cart deleteFromCart(String id, CartItem cartItem) {
+//		Cart cart = findByCartId(id);
+//		boolean flag = true;
+//		
+//		return cart;
+//	}
 
 	private Cart createCart(String id, CartItem cartItem) {
 		List<CartItem> cartItems = new ArrayList<CartItem>();

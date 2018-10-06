@@ -12,11 +12,11 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.repository.configuration.EnableRedisRepositories;
 import org.springframework.data.redis.serializer.GenericToStringSerializer;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 
 import com.capgemini.productcart.domain.Cart;
 import com.capgemini.productcart.domain.CartItem;
 import com.capgemini.productcart.repository.ProductCartRepository;
-import com.capgemini.productcart.repository.ProductCartRepositoryImpl;
 
 @EnableDiscoveryClient
 @EnableRedisRepositories
@@ -36,21 +36,22 @@ public class ProductCartApplication {
 	public RedisTemplate<String, Cart> redisTemplate() {
 		RedisTemplate<String, Cart> redisTemplate = new RedisTemplate<>();
 		redisTemplate.setConnectionFactory(jedisConnectionFactory());
-		redisTemplate.setValueSerializer(new GenericToStringSerializer<Cart>(Cart.class));
+//		redisTemplate.setValueSerializer(new GenericToStringSerializer<Cart>(Cart.class));Jackson2JsonRedisSerializer
+		redisTemplate.setValueSerializer(new Jackson2JsonRedisSerializer<Cart>(Cart.class));
 		return redisTemplate;
 	}
 	
-	@Bean
-	public CommandLineRunner commandLineRunner(ProductCartRepository cartRepository, RedisTemplate<String, Cart> redisTemplate) {
-		return strings -> {
-			redisTemplate.delete("123");
-			logger.info("Test");
-			CartItem cartItem = new CartItem(null,"new product",2.3f);
-			Cart cart = cartRepository.addToCart(null, cartItem);
-			logger.info("Cart : {}.", cartRepository.findByCartId(cart.getCartId()));
-			logger.info("Find 123 : {}.", cartRepository.findByCartId("123"));
-		};
-	}
+//	@Bean
+//	public CommandLineRunner commandLineRunner(ProductCartRepository cartRepository, RedisTemplate<String, Cart> redisTemplate) {
+//		return strings -> {
+//			redisTemplate.delete("123");
+//			logger.info("Test");
+//			CartItem cartItem = new CartItem(null,"new product",2.3f);
+//			Cart cart = cartRepository.addToCart(null, cartItem);
+//			logger.info("Cart : {}.", cartRepository.findByCartId(cart.getCartId()));
+//			logger.info("Find 123 : {}.", cartRepository.findByCartId("123"));
+//		};
+//	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductCartApplication.class, args);

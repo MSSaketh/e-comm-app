@@ -7,6 +7,7 @@ import org.springframework.data.redis.core.RedisHash;
 @RedisHash("Cart")
 public class Cart {
 
+
 	private String cartId;
 	private List<CartItem> cartItems;
 	private float cartTotal;

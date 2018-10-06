@@ -1,10 +1,8 @@
 package com.capgemini.productcart.domain;
 
-import org.springframework.data.annotation.Id;
-
 public class CartItem {
 
-	@Id
+	
 	private String ItemId;
 	private String ItemName;
 	private float ItemPrice;
