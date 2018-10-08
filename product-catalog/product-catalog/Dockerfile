@@ -1,5 +1,5 @@
 # pull image of jdk
-FROM java:8-jre
+FROM java:9.0.4-jre
 
 # copy jar file to docker file system
 ADD ./target/product-catalog-0.0.1-SNAPSHOT.jar /usr/app/product-catalog-0.0.1-SNAPSHOT.jar
