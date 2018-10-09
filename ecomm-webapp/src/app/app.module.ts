@@ -8,8 +8,11 @@ import {AppComponent} from './app.component';
 import {ProductCatalogComponent} from './productCatalog/product.catalog.component';
 import {RouterModule, Routes} from '@angular/router';
 import {CartModule} from "./cart/cart.module";
+import { UserLoginModule } from './userLogin/user.login.module';
+import { UserLoginComponent } from './userLogin/user.login.component';
+import { HttpClientModule } from '@angular/common/http';
 const appRoutes: Routes = [
-  { path: '', component:  ProductCatalogComponent }
+  { path: 'login', component:  UserLoginComponent }
 ]
 
 @NgModule({
@@ -20,8 +23,10 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
+    HttpClientModule,
     ProductCatalogModule,
     CartModule,
+    UserLoginModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

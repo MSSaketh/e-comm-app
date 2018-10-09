@@ -1,7 +1,5 @@
 package com.capgemini.productcart;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -20,7 +18,7 @@ import com.capgemini.productcart.domain.Cart;
 public class ProductCartApplication {
 
 //	192.168.43.218
-	private static final Logger logger = LoggerFactory.getLogger(ProductCartApplication.class);
+//	private static final Logger logger = LoggerFactory.getLogger(ProductCartApplication.class);
 
 	@Bean
 	public JedisConnectionFactory jedisConnectionFactory() {
@@ -36,7 +34,7 @@ public class ProductCartApplication {
 		redisTemplate.setValueSerializer(new Jackson2JsonRedisSerializer<Cart>(Cart.class));
 		return redisTemplate;
 	}
-	
+
 //	@Bean
 //	public CommandLineRunner commandLineRunner(ProductCartRepository cartRepository, RedisTemplate<String, Cart> redisTemplate) {
 //		return strings -> {
@@ -52,6 +50,5 @@ public class ProductCartApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProductCartApplication.class, args);
 	}
-
 
 }

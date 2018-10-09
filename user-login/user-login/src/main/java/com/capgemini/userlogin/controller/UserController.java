@@ -27,7 +27,7 @@ import com.capgemini.userlogin.service.UserService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
-@CrossOrigin("*")
+@CrossOrigin(value = "*")
 @RestController
 @RequestMapping("api/v1/")
 public class UserController {
